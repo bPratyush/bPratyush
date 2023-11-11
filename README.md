@@ -1,5 +1,5 @@
 ### Hi there 👋
-
+I am an Undergraduate Computer Science student at BITS Pilani. Here are some of my works. Do check them out !!!
 <!--
 **bPratyush/bPratyush** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
