@@ -3,11 +3,6 @@ on:
   schedule: # execute every 12 hours
     - cron: "* */12 * * *"
   workflow_dispatch:
-    # You can add a workflow_dispatch section with an appropriate name
-    inputs:
-      trigger:
-        description: 'Manually trigger the workflow'
-        required: false
 jobs:
   build:
     name: Jobs to update datas
@@ -16,12 +11,15 @@ jobs:
       # Snake Animation
       - uses: Platane/snk@master
         id: snake-gif
-        with:
+with:
           github_user_name: bPratyush
           svg_out_path: dist/github-contribution-grid-snake.svg
       - uses: crazy-max/ghaction-github-pages@v2.1.3
         with:
           target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           build_dir: dist
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
