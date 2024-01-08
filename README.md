@@ -1,5 +1,7 @@
 ### Hi there 👋
 I am an Undergraduate Computer Science student at BITS Pilani. Here are some of my works. Do check them out !!!
+
+![Snake animation](https://github.com/bPratyush/bPratyush/blob/output/github-contribution-grid-snake.svg)
 <!--
 **bPratyush/bPratyush** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
